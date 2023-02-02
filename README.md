@@ -27,6 +27,3 @@ python amazon_scraper.py
 ```
 6. Output
 The script will generate a CSV file containing the extracted data.
-
-Disclaimer
-This script is for educational and research purposes only. Please ensure you have read and understood Amazon's terms of service before using this script.

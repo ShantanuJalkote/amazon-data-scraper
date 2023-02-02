@@ -19,7 +19,7 @@ pip install beautifulsoup4
 ```
 3. Download the appropriate webdriver for your browser and place it in your PATH, or specify its location in the script.
 
-4. Edit the amazon_scraper.py script to include the URL of the Amazon page you want to scrape.
+4. Edit the `amazon_scraper.py` script to include the URL of the Amazon page you want to scrape.
 
 5. Run the script
 ```

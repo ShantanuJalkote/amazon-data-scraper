@@ -1,6 +1,6 @@
 # Amazon-data-scraper
 A Python script that uses Selenium and BeautifulSoup to scrape data from Amazon websites. This script can be used to extract information such 
-as product names, prices, ratings, and more from Amazon pages.
+as Product URL, Product Name, Product Price, Rating, Number of reviews, ASIN, Product Description, • Manufacturer from Amazon pages.
 
 ## Requirements
 - Python 3.x

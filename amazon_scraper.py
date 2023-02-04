@@ -87,7 +87,7 @@ def main():
             req_list = req_list_1 + req_list_2
             check = "prodTable"
         #Defining the list of data to extract
-        product_desc_list = ['Manufacturer', 'ASIN', 'Product Dimensions']
+        product_desc_list = ['Manufacturer', 'ASIN']
         req_dict = {}   #Initialising empty dictionary
         #Adding the data extracted previously
         req_dict["Product Name"] = row["Product Name"]
@@ -137,10 +137,10 @@ def main():
 
         #Defining Reuired Field in the csv file
         field_name = ["Product URL", "Product Name", "Product Price", "Rating", "Number of reviews",
-                    "Manufacturer", "ASIN", "Product Description"]
+                    "Manufacturer", "ASIN"]
         #To Write Data in a csv File
         with open('Scraped_Data.csv', 'w', encoding='utf-8') as csvfile:
-            writer = csv.DictWriter(csvfile, fieldnames = field_name)
+            writer = csv.DictWriter(csvfile, fieldnames=field_name)
             writer.writeheader()
             writer.writerows(scraped_data)       
 #Calling Main Function

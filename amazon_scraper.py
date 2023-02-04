@@ -87,7 +87,7 @@ def main():
             req_list = req_list_1 + req_list_2
             check = "prodTable"
         #Defining the list of data to extract
-        product_desc_list = ['Manufacturer', 'ASIN', 'Product Dimensions']
+        product_desc_list = ['Manufacturer', 'ASIN']
         req_dict = {}   #Initialising empty dictionary
         #Adding the data extracted previously
         req_dict["Product Name"] = row["Product Name"]

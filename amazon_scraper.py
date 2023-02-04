@@ -137,7 +137,7 @@ def main():
 
         #Defining Reuired Field in the csv file
         field_name = ["Product URL", "Product Name", "Product Price", "Rating", "Number of reviews",
-                    "Manufacturer", "ASIN", "Product Description"]
+                    "Manufacturer", "ASIN"]
         #To Write Data in a csv File
         with open('Scraped_Data.csv', 'w', encoding='utf-8') as csvfile:
             writer = csv.DictWriter(csvfile, fieldnames = field_name)
